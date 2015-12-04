@@ -86,4 +86,3 @@ def bfs(g,start):
         vertQueue.enqueue(nbr)
     currentVert.setColor('black')
     
-    
