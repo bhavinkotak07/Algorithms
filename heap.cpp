@@ -80,6 +80,13 @@ void insert_val(long long value){
     if(heapsize > 1)
         heapify_up(heapsize-1);
 }
+// print current heap
+void print_current_heap(long long arr[] , long long heapsize){
+    for(int i = 0 ; i < heapsize ; i++ ){
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
+}
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
     long long q;
